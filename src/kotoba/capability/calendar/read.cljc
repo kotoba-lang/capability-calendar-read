@@ -1,0 +1,5 @@
+(ns kotoba.capability.calendar.read
+  "Importable contract for calendar/read.")
+
+(def manifest
+  {:schema "kotoba.capability.repository.v1", :capability/version 1, :capability/dependencies #{}, :capability/imports #{}, :authority "kotoba-lang/kotoba-core-contracts", :capability/default-policy :approval-required, :capability/artifact {:format :wasm-component, :digest-required? true, :signature-required? true}, :capability/radicle-rid nil, :capability/repository "kotoba-lang/capability-calendar-read", :capability/id "calendar/read", :capability/effects #{:storage-read :personal-data}, :capability/provider-status :contract-only})
